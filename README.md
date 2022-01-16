@@ -7,6 +7,19 @@ cross-merged: `A1, B1, A2, B2, A3, B3`
 
 cross-reverse-merged: `A1, B3, A2, B2, A3, B1`
 
+## prerequisites
+
+The script uses `pdftk` for merging the files. One must install `pdftk` before one can use the script
+
+e.G. install via
+```bash
+#Fedora:
+sudo dnf install pdftk
+
+#Debian/Ubuntu:
+sudo apt-get install pdftk
+```
+
 ## usage
 
 ### cross merge
